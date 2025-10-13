@@ -23,16 +23,16 @@ email: alphabet1671@foxmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website serves to document my work related to Formula SAE/Formula Student
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://alphabet1671." # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://alphabet1671.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  Alphabet1671
 
 # Build settings
-remote-theme: jeffreytse/jekyll-theme-yat
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
+remote_theme: jeffreytse/jekyll-theme-yat
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
