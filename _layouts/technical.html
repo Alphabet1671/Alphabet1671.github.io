@@ -1,0 +1,30 @@
+---
+layout: framework
+---
+
+{{ content }}
+
+{%- assign technical_posts = site.posts | where_exp: "post", "post.categories contains 'Technical'" -%}
+
+{%- assign tag_set = "" | split: "" -%}
+{%- for post in technical_posts -%}
+  {%- for tag in post.tags -%}
+    {% unless tag_set contains tag %}
+      {% assign tag_set = tag_set | push: tag %}
+    {% endunless %}
+  {%- endfor -%}
+{%- endfor -%}
+
+<div class="page-segments">
+  <ul class="page-segments-list">
+    {% for tag in tag_set %}
+      <h2 id="{{ tag | slugify }}" class="segment-name">{{ tag }}</h2>
+      {% assign items = technical_posts | where_exp: "post", "post.tags contains tag" %}
+      {% for item in items %}
+        {% if item != nil %}
+          <li>{% include views/post-item.html post=item %}</li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>

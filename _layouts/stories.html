@@ -1,0 +1,13 @@
+---
+layout: framework
+---
+{{content}}
+
+
+{%- if site.posts.size > 0 -%}
+
+  {%- assign keys = "Story" | split: "," -%}
+  {%- assign field = "categories" -%}
+  {%- include views/segments.html -%}
+
+{%- endif -%}
