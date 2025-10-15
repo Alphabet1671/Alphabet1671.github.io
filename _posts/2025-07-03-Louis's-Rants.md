@@ -5,7 +5,6 @@ date:   2025-07-03 00:00:00 -0500
 categories: Story
 tags: 
 ---
-## Note
 This article is reorganized from a wiki article of Illini Electric Motorsports
 #
 As a freshman, I was so eager to do everything I could to make the car better. I'd be looking for work constantly and feel guilty whenever I have free time and there's no FSAE work to do. Maybe it's IM team culture that got to me, but I simply decided that I was going to make FSAE my first priority in life and didn't feel like I can get burnt out from the work. While that hasn't changed much and I still very much enjoy the work that I do, I was thinking about something dangerous: quitting the team. I was shocked as soon as that thought got to me, and I decided otherwise after realizing that, for better or for worse, I'm made of nothing but what I do on this team and that the infinite void would be too big to fill with any other commitment (I mean what other RSO would want people to spend 40+ hours a week working on anything). So, this page is going to be my reflections on both me and the team. Although not intended for anyone to read since people who care about what I care about would have the same frustrations with the team and people who don't understand my frustrations aren't going to change, it might become useful one day (maybe if we don't do anything about what's happening, and the team meet its demise a few years later, someone might find it interesting to read).
