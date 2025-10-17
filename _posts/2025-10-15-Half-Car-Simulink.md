@@ -29,4 +29,17 @@ There are a few ways of achieving this concept:
 - 3rd springs & ARB: auxiliary roll/pitch stiffness, can be configured to only engage after a certain point.
 - Mode decoupled: new hot kid on the block in FSAE Michigan, useful if your car is scraping only in pitch or roll.
 
-The idea of this series of posts is that: given any arbitrary FSAE car, how would one go about picking the optimum architecture?
+The idea of this series of posts is that: given any arbitrary FSAE car, how would one go about picking the optimum architecture? And how would one balance aerodynamic and mechanical grip?
+
+[This paper](https://radar.brookes.ac.uk/radar/file/7fc3dce7-8da4-4362-a5dc-df16a19c1683/1/bennett2012ride.pdf) provides a good method of condensing the vertical dynamics characteristics into a simple grip loss scalar. This means that, with a simple vertical dynamics suspension test rig data, one could obtain how much grip is lost due to body/wheel hop. In terms of aero grip, given a certain body attitude, one could obtain the downforce from CFD, so it can also be condensed into a singular scalar of aero grip at any given moment on the track, and finally reaching an average over a single lap of the track.
+
+## Tool Building
+
+Knowing that it's possible to trade aero/mechanical grip, all we need is a shaker rig for the car. Of course, not every school has one, so we're going to settle with a half car Simulink rig. Here's the [Github link](https://github.com/Alphabet1671/FSAE-VD-Personal-Scripts) to the one that I've built.
+
+The associated Matlab script under the Vertical Dynamics folder drives damper curve sweeps.
+
+### Work in Progress...
+
+
+
